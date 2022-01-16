@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloResource {
 
-	@GetMapping
+	@GetMapping("/show")
 	public String showMessage()
 	{
 		return "Hello How are you";
