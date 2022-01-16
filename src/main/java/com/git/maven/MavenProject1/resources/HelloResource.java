@@ -11,6 +11,7 @@ public class HelloResource {
 	@GetMapping("/show")
 	public String showMessage()
 	{
+		System.out.println("asmit pandey");
 		//returning value
 		return "Hello How are you";
 	}
